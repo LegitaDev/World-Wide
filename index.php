@@ -94,7 +94,7 @@
                                                 <td><?php echo $result[$i]->region; ?></td>
                                                 <td><?php echo current($result[$i]->languages); ?></td>
                                                 <td><?php echo $landborderCountries; ?></td>
-                                                <td><a href='<?php echo $result[$i]->maps->googleMaps; ?>'>Maps"</a></td>
+                                                <td><a href='<?php echo $result[$i]->maps->googleMaps; ?>'>Maps</a></td>
                                                 <td><?php echo number_format($result[$i]->population) ?></td>
                                                 <td><img src='<?php echo $result[$i]->flags->png; ?>' alt='flag' with='75' height='50'></td>
                                             </tr>
