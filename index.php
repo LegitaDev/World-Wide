@@ -49,7 +49,7 @@
             $result = json_decode($result, true);
             $result = json_decode(json_encode($result), FALSE);
 
-            if ((!isset($result->status) && $result->status !== 404) && !empty($result)) {
+            if ((!isset($result->status)) && !empty($result)) {
                 $resultFound = true;
             }
         }
