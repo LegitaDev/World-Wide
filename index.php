@@ -66,24 +66,24 @@
                         </div>
                         <div class="table-responsive">
                             <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th> <label class="customcheckbox m-b-20"> <span class="checkmark"></span> </label> </th>
+                                        <th scope="col">Country</th>
+                                        <th scope="col">Official Name</th>
+                                        <th scope="col">Currencies</th>
+                                        <th scope="col">Phone</th>
+                                        <th scope="col">Region</th>
+                                        <th scope="col">Language</th>
+                                        <th scope="col">Land borders</th>
+                                        <th scope="col">Maps</th>
+                                        <th scope="col">Population</th>
+                                        <th scope="col">Flag</th>
+                                    </tr>
+                                </thead>
                                 <?php for ($i = 0; $i < count($result); $i++) : ?>
                                     <?php if (strpos(strtolower($result[$i]->name->official), strtolower($country)) !== false) : ?>
                                         <?php (!empty($result[$i]->borders)) ? $landborderCountries = implode("-", $result[$i]->borders) : $landborderCountries = "none"; ?>
-                                        <thead class="thead-light">
-                                            <tr>
-                                                <th> <label class="customcheckbox m-b-20"> <span class="checkmark"></span> </label> </th>
-                                                <th scope="col">Country</th>
-                                                <th scope="col">Official Name</th>
-                                                <th scope="col">Currencies</th>
-                                                <th scope="col">Phone</th>
-                                                <th scope="col">Region</th>
-                                                <th scope="col">Language</th>
-                                                <th scope="col">Land borders</th>
-                                                <th scope="col">Maps</th>
-                                                <th scope="col">Population</th>
-                                                <th scope="col">Flag</th>
-                                            </tr>
-                                        </thead>
                                         <tbody class="customtable">
                                             <tr>
                                                 <th> <label class="customcheckbox"> <input type="checkbox" class="listCheckbox"> <span class="checkmark"></span> </label> </th>
