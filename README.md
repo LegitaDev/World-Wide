@@ -10,5 +10,5 @@
 ## Get the details of each country
 
 <p align="center" align='right'>
-  <img src="https://github.com/LegitaDev/World-Wide/assets/50632062/94ada158-e359-4441-a1a2-41651c060000" width="1000" height="400" />
+  <img src="https://github.com/LegitaDev/World-Wide/assets/50632062/12716b74-c04b-4155-acaf-53662bdc4a82" width="1000" height="400" />
 </p>
